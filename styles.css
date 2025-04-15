@@ -239,3 +239,34 @@ body {
 #ultimo-paragrafo-quem-somos {
   font-weight: bold;
 }
+
+/* números */
+
+.container-section-numeros {
+  background-color: #b68954;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.container-div-numeros {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-numeros {
+  width: 15.6rem;
+  text-align: center;
+  color: white;
+}
+
+.card-numeros h2 {
+  font-size: 5.5rem;
+}
+
+.card-numeros p {
+  font-size: 1.2rem;
+}
