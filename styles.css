@@ -127,6 +127,7 @@ body {
 /* Especialidades */
 
 .container-section-especialidades {
+  background-color: #efefef;
   display: flex;
   justify-content: center;
   padding: 4rem 0;
