@@ -127,20 +127,21 @@ body {
 /* Especialidades */
 
 .container-section-especialidades {
-  background-color: aqua;
   display: flex;
   justify-content: center;
+  padding: 4rem 0;
 }
 
 .container-div-especialidades {
-  background-color: red;
   width: 85%;
 }
 
 .container-div-especialidades h2 {
-  background-color: green;
   width: 100%;
   text-align: center;
+  color: #1a2b4b;
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
 }
 
 .container-div-cards-especialidades {
@@ -153,6 +154,7 @@ body {
 
 .card-especialidades {
   width: 24rem;
+  height: 17.5rem;
   border: 0.2rem solid #b68954;
   display: flex;
   flex-direction: column;
