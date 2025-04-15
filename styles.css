@@ -270,3 +270,43 @@ body {
 .card-numeros p {
   font-size: 1.2rem;
 }
+
+/* depoimentos */
+
+.container-section-depoimentos {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-depoimentos {
+  background-color: red;
+  width: 85%;
+}
+
+.container-div-depoimentos h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a2b4b;
+}
+
+.container-div-cards-depoimentos {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-depoimentos {
+  border: 0.15rem solid #b68954;
+  border-radius: 1.5rem;
+  width: 20.62rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 1.9rem;
+}
