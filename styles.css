@@ -274,25 +274,23 @@ body {
 /* depoimentos */
 
 .container-section-depoimentos {
-  background-color: aqua;
   display: flex;
   justify-content: center;
+  padding: 5rem 0;
 }
 
 .container-div-depoimentos {
-  background-color: red;
   width: 85%;
+  color: #1a2b4b;
 }
 
 .container-div-depoimentos h2 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 3rem;
-  color: #1a2b4b;
 }
 
 .container-div-cards-depoimentos {
-  background-color: lightblue;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -309,4 +307,12 @@ body {
   text-align: center;
   gap: 1.5rem;
   padding: 1.9rem;
+}
+
+.card-depoimentos h3 {
+  font-size: 1.3rem;
+}
+
+.card-depoimentos p {
+  font-size: 1.1rem;
 }
