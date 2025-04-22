@@ -328,10 +328,25 @@ body {
 /* compromissos */
 
 .container-section-compromisso {
-  background-color: #1a2b4b;
+  background-image: url("./assets/banner-aperto-maos.png");
+  background-size: cover;
   display: flex;
   justify-content: center;
   padding: 3rem 0;
+  position: relative;
+}
+
+.container-section-compromisso::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1a2b4b;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.8;
 }
 
 .container-div-compromisso {
@@ -342,6 +357,7 @@ body {
   text-align: center;
   gap: 2rem;
   color: white;
+  z-index: 2;
 }
 
 .container-div-compromisso h2 {
