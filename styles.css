@@ -287,7 +287,7 @@ body {
 .container-div-depoimentos h2 {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .container-div-cards-depoimentos {
@@ -295,6 +295,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 5rem;
 }
 
 .card-depoimentos {
@@ -308,6 +309,7 @@ body {
   gap: 1.5rem;
   padding: 1.9rem;
   position: relative;
+  height: 24rem;
 }
 
 .aspas {
