@@ -370,3 +370,13 @@ body {
   font-size: 1.4rem;
   font-weight: 300;
 }
+
+/* footer */
+
+footer {
+  background-color: #b68954;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 1.4rem;
+}
