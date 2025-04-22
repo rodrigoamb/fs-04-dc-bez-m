@@ -33,6 +33,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .container-ul-cabecalho {
@@ -92,6 +93,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   z-index: 2;
 }
 
@@ -392,4 +394,37 @@ footer {
   text-align: center;
   padding: 3rem 0;
   font-size: 1.4rem;
+}
+
+/* responsividade */
+
+@media (max-width: 950px) {
+  .container-div-cards-especialidades {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  #estatua-justica {
+    display: none;
+  }
+
+  .container-div-textos-banner-principal {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .container-div-textos-banner-principal h1 {
+    border-left: none;
+    border-bottom: 0.5rem solid #b68954;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .container-div-cabecalho {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
