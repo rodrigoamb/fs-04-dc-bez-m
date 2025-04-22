@@ -8,6 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Cabeçalho */
 
 .container-header-cabecalho {
@@ -16,6 +20,11 @@ body {
   display: flex;
   justify-content: center;
   padding: 2.5rem;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .container-div-cabecalho {
@@ -61,6 +70,7 @@ body {
   justify-content: center;
   padding: 1.5rem 0;
   position: relative;
+  scroll-margin-top: 12rem;
 }
 
 .container-section-banner-principal::before {
@@ -131,6 +141,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 4rem 0;
+  scroll-margin-top: 10rem;
 }
 
 .container-div-especialidades {
@@ -187,6 +198,7 @@ body {
   justify-content: center;
   padding: 6rem 0;
   position: relative;
+  scroll-margin-top: 10rem;
 }
 
 .container-section-quem-somos::before {
@@ -277,6 +289,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 5rem 0;
+  scroll-margin-top: 10rem;
 }
 
 .container-div-depoimentos {
