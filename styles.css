@@ -307,6 +307,12 @@ body {
   text-align: center;
   gap: 1.5rem;
   padding: 1.9rem;
+  position: relative;
+}
+
+.aspas {
+  position: absolute;
+  bottom: 22rem;
 }
 
 .card-depoimentos h3 {
