@@ -324,3 +324,33 @@ body {
 .card-depoimentos p {
   font-size: 1.1rem;
 }
+
+/* compromissos */
+
+.container-section-compromisso {
+  background-color: #1a2b4b;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.container-div-compromisso {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  color: white;
+}
+
+.container-div-compromisso h2 {
+  font-size: 2.5rem;
+  border-bottom: 0.5rem solid #b68954;
+  padding-bottom: 1rem;
+}
+
+.container-div-compromisso p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
