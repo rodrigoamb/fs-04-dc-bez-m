@@ -27,6 +27,12 @@ html {
   z-index: 99;
 }
 
+#menu {
+  color: white;
+  font-size: 2rem;
+  display: none;
+}
+
 .container-div-cabecalho {
   width: 85%;
   display: flex;
